@@ -3,6 +3,7 @@ layoutdir     = "layouts"
 publishdir    = "public"
 title = "DevOps Blog"
 canonifyurls  = true
+baseURL = "/github.com/Youyou23/devops-blog"
 
 DefaultContentLanguage = "en"
 metaDataFormat = "yaml"
