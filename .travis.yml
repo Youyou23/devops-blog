@@ -10,6 +10,7 @@ install:
 script:
   - mkdir -p themes/beautifulhugo && git clone https://GitHub.com/halogenica/beautifulhugo.git themes/beautifulhugo
   - hugo --theme beautifulhugo
+  - ls
 deploy:
   provider: pages
   skip_cleanup: true
@@ -17,3 +18,5 @@ deploy:
   local_dir: public
   on:
     branch: main
+
+
