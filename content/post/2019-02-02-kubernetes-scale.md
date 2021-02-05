@@ -1,5 +1,5 @@
 ---
-title: Scaling My Kubernetes Deployment
+title: Scaling My fucking Kubernetes Deployment
 date: 2019-02-02
 tags: ["kubernetes", "code"]
 ---
