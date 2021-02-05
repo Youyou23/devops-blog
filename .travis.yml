@@ -9,11 +9,9 @@ install:
   - cd hugo
   - go install
 script:
+  - cd /home/travis/gopath/src/github.com/Youyou23/devops-blog
   - mkdir -p themes/beautifulhugo && git clone https://GitHub.com/halogenica/beautifulhugo.git themes/beautifulhugo
   - hugo --theme beautifulhugo
-  - cd public
-  - ls
-  - cd .. 
 deploy:
   provider: pages
   skip_cleanup: true
