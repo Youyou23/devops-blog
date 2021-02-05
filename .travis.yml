@@ -10,7 +10,10 @@ install:
 script:
   - mkdir -p themes/beautifulhugo && git clone https://GitHub.com/halogenica/beautifulhugo.git themes/beautifulhugo
   - hugo --theme beautifulhugo
+  - pwd
+  - cd public
   - ls
+  - cd .. & cp -r public /home/travis/gopath/src/github.com/Youyou23/devops-blog/
 deploy:
   provider: pages
   skip_cleanup: true
